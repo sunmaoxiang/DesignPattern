@@ -69,6 +69,7 @@ int main()
     SimpleRemoteControl* ctr = new SimpleRemoteControl();
     ctr->setCommond(command);
     ctr->buttonWasPressed();
+    delete command;
     delete ctr;
     return 0;
 }
