@@ -61,5 +61,8 @@ int main()
     Adaptee* adaptee = new Adaptee(); 
     Adaper0* _adapter0 = new Adaper0(adaptee);
     _adapter0->Request();
+    delete adapter;
+    delete adaptee;
+    delete _adapter0;
     return 0;
 }

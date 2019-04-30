@@ -40,5 +40,6 @@ int main()
 {
     Singleton* singleton = Singleton::getSingleton();
     singleton->use();
+    delete singleton;
     return 0;
 }

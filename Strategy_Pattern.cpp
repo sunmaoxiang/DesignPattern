@@ -67,5 +67,6 @@ int main()
     MyDuck* myDuck = new MyDuck();
     myDuck->performFly();
     myDuck->performQuack();
+    delete myDuck;
     return 0;
 }
