@@ -68,5 +68,6 @@ int main()
     myDuck->performFly();
     myDuck->performQuack();
     delete myDuck;
+    deque<int>qu;
     return 0;
 }
